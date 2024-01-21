@@ -21,7 +21,7 @@ const Checkout = () => {
                             <div className="card-body">
                                 <div className="d-flex align-items-start border-bottom pb-3">
                                     <div className="me-1 h-50 w-50">
-                                        <img src={item.image} alt="" className="avatar-lg rounded w-25"/>
+                                        <img src={item.image} alt="" className="avatar-lg rounded w-50"/>
                                     </div>
                                     <div className="flex-grow-1 align-self-center overflow-hidden">
                                         <h5 className="text-truncate font-size-18">
