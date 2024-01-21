@@ -24,7 +24,7 @@ function Login() {
       </form>
     </div>
     <span>
-        Don't Have a account <Link to={'/Signin'}>Sign In</Link>
+        Don't Have a account <Link to={'/Signin'}>Sign Up</Link>
       </span>
   </div>
 </div>
