@@ -11,6 +11,7 @@ function Product() {
     const fetchData = async () => {
       const res = await axios.get('https://fakestoreapi.com/products');
       setProduct(res.data);
+      console.log(res.data);
     };
     fetchData();
   }, []); // Pass an empty dependency array
