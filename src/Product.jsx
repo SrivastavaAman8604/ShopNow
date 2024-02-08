@@ -40,7 +40,7 @@ function Product() {
                 </div>
                 <div className="card-body p-4">
                   <div className="text-center">
-                    <h6 className="fw-bolder">{prod.title}</h6>
+                    <h6 className="fw-bolder">{prod.title.substring(0,12)}</h6>
                     ${prod.price}
                   </div>
                 </div>
