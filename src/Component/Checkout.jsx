@@ -26,7 +26,7 @@ const Checkout = () => {
                                     <div className="flex-grow-1 align-self-center overflow-hidden">
                                         <h5 className="text-truncate font-size-18">
                                             <a href="/" className="text-dark">
-                                                {item.title.subtitle(0,12)}
+                                                {item.title.substring(0,12)}
                                             </a>
                                         </h5>
                                         <h5 className="mb-0 mt-2">
