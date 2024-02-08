@@ -45,7 +45,7 @@ function Product() {
                   </div>
                 </div>
                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <button className="text-center btn-dark p-3" onClick={() => addToCart(prod.id, prod.image, prod.price,prod.title)}>
+                  <button className="text-center btn btn-outline-primary p-1" onClick={() => addToCart(prod.id, prod.image, prod.price,prod.title)}>
                     Add to Cart
                   </button>
                 </div>
